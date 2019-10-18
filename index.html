@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>4</title>
+</head>
+
+<body>
+  <div id="app" class="app">
+    <ul class="list">
+      <li class="question-block">
+        <h3 class="question-block__header">JavaScript это тоже самое что и Java?</h3>
+        <ul class="question-block__answers-list">
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Нет
+              <input data-true type="radio" name="radio1" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Да
+              <input type="radio" name="radio1" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Когда как
+              <input type="radio" name="radio1" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+        </ul>
+      </li>
+      <li class="question-block">
+        <h3 class="question-block__header">Сколько параметров можно передавать в функцию?</h3>
+        <ul class="question-block__answers-list">
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Только столько, сколько указано при ее созданиию
+              <input type="radio" name="radio2" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Минимум 1
+              <input type="radio" name="radio2" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Сколько угодно
+              <input data-true type="radio" name="radio2" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+        </ul>
+      </li>
+      <li class="question-block">
+        <h3 class="question-block__header">Что такое: "use strict"?</h3>
+        <ul class="question-block__answers-list">
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Просто строка
+              <input type="radio" name="radio3" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Функция
+              <input type="radio" name="radio3" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+          <li class="question-block__answers-item">
+            <label class="question-block__label">Строгий режим
+              <input data-true type="radio" name="radio3" class="question-block__input_hidden">
+              <span class="question-block__item_radiobox"></span>
+            </label>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <button class="btn app__button_next" id="next">Следующий вопрос</button>
+    <button class="btn app__button_check hide" id="check">Проверить</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
